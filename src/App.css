@@ -1,6 +1,16 @@
+#root{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  background-image: url("https://media.giphy.com/media/W5GyJBpRgszhm/giphy.gif");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 .App {
   display: block;
   text-align: center;
+  color: white;
+  width: 80%;
 }
 
 .App-logo {

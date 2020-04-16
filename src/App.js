@@ -1,11 +1,11 @@
 import React, {useState, useEffect} from "react";
 import "./App.css";
 import AstroOfTheDay from "./AstroOfTheDay"
-import astroData from "./apod.json"
-import RoverGallery from "./RoverGallery"
 import axios from "axios"
+import styled from "styled-components"
 const url = "https://api.nasa.gov/planetary/apod"
 const key = "5QLiZdjGEJNCTMappVfsVecGhN1L5gggWZ4tnrSu"
+
 
 function App() {
   const [data, setData]=useState([])

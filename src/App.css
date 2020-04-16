@@ -1,4 +1,5 @@
 .App {
+  display: block;
   text-align: center;
 }
 
@@ -35,4 +36,11 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.astroContainer {
+  display: flex;
+  justify-content: center;
+  width: 80%;
+  flex-wrap: wrap;
 }
